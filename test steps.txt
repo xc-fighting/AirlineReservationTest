@@ -1,0 +1,35 @@
+Some helpful test steps:
+
+first when you set up all the enviroment
+
+one of the most important thing is you have to run server first, if not ,when you press any button in client
+the client program will crash. Sorry about that I have limited time to do that so I don't do the network connection
+check in my client program, also do not type any character in the digit field, it will also crash the program.
+I just focus on basic functionality, so this kind of bug ,i know it will exist but haven't fix that now
+also when login, select the role please
+
+I don't do the digit validation or format validation, so if the input require a number or time in format,just follow the rule
+for example the time format will be xxxx-xx-xx don't change that or using ':' to connect
+because in my program ':' is a important connection character(I know it is not proper, but this just for experiment)
+
+steps:
+0.start the server !!!!
+1.use any  username or password/real id to try login, you will get the messagebox of warning message like user not exist
+2.you can press the register button with a role selected
+3.input some information(chooese admin or customer) and register, you should success and then you can close that window
+4.login with the information you just input(admin or customer) for customer the password is the realID
+
+----------------------------------------------------------------------------------------------------------------------
+5.if you login with customer, you will get the available flight in a listview, then you can choose one 
+and press select seat
+6.you will see a form with the flight seat graph, choose some and make order
+7.if you don't want to make order any more, you can close the form, the login form will always be there
+-----------------------------------------------------------------------------------------------------------------------
+8.if you login with admin, the only thing you can do is add the flight information
+
+
+That is all of the steps for testing. and if you operate the normal way, it will not crash and will behave like the project 
+description. Sorry I have limited time to fix other bugs of desigin and database.
+
+Basically it can deal with seat select conflict and in certain it will support multi client
+
